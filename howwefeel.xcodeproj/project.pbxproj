@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E4E69AC1DF0AA8400456281 /* PersonHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E69AB1DF0AA8400456281 /* PersonHistoryVC.swift */; };
+		4E4E69B11DF15E8F00456281 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E69B01DF15E8F00456281 /* .gitignore */; };
+		4E849E5E1DF02DC90039A5EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E849E5D1DF02DC90039A5EA /* AppDelegate.swift */; };
+		4E849E601DF02DC90039A5EA /* PersonTodayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E849E5F1DF02DC90039A5EA /* PersonTodayVC.swift */; };
+		4E849E621DF02DC90039A5EA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E849E611DF02DC90039A5EA /* SecondViewController.swift */; };
+		4E849E651DF02DC90039A5EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E849E631DF02DC90039A5EA /* Main.storyboard */; };
+		4E849E671DF02DC90039A5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E849E661DF02DC90039A5EA /* Assets.xcassets */; };
+		4E849E6A1DF02DC90039A5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E849E681DF02DC90039A5EA /* LaunchScreen.storyboard */; };
+		4E849E751DF02DC90039A5EA /* howwefeelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E849E741DF02DC90039A5EA /* howwefeelTests.swift */; };
+		543A5AE6A578199B18C1523B /* Pods_howwefeel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621AAC4D0AD720A112B0CFD3 /* Pods_howwefeel.framework */; };
+		5D2302459A0CC18E6FA3CD81 /* Pods_howwefeelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FEB2BD591451BDE947479 /* Pods_howwefeelTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E849E711DF02DC90039A5EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E849E521DF02DC90039A5EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E849E591DF02DC90039A5EA;
+			remoteInfo = howwefeel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A09713BE53E76053A5A9C8F /* Pods-howwefeel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-howwefeel.release.xcconfig"; path = "Pods/Target Support Files/Pods-howwefeel/Pods-howwefeel.release.xcconfig"; sourceTree = "<group>"; };
+		394D48FF6756EC40A7139263 /* Pods-howwefeelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-howwefeelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-howwefeelTests/Pods-howwefeelTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E4E69AB1DF0AA8400456281 /* PersonHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonHistoryVC.swift; sourceTree = "<group>"; };
+		4E4E69B01DF15E8F00456281 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4E849E5A1DF02DC90039A5EA /* howwefeel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = howwefeel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E849E5D1DF02DC90039A5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E849E5F1DF02DC90039A5EA /* PersonTodayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTodayVC.swift; sourceTree = "<group>"; };
+		4E849E611DF02DC90039A5EA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4E849E641DF02DC90039A5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E849E661DF02DC90039A5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E849E691DF02DC90039A5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E849E6B1DF02DC90039A5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E849E701DF02DC90039A5EA /* howwefeelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = howwefeelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E849E741DF02DC90039A5EA /* howwefeelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howwefeelTests.swift; sourceTree = "<group>"; };
+		4E849E761DF02DC90039A5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA1B3369B74A62E83DE2DB7 /* Pods-howwefeelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-howwefeelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-howwefeelTests/Pods-howwefeelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		621AAC4D0AD720A112B0CFD3 /* Pods_howwefeel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_howwefeel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867546236EE1B185D900D6AE /* Pods-howwefeel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-howwefeel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-howwefeel/Pods-howwefeel.debug.xcconfig"; sourceTree = "<group>"; };
+		955FEB2BD591451BDE947479 /* Pods_howwefeelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_howwefeelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E849E571DF02DC90039A5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543A5AE6A578199B18C1523B /* Pods_howwefeel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E849E6D1DF02DC90039A5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2302459A0CC18E6FA3CD81 /* Pods_howwefeelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E4E69AA1DF0AA2500456281 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				4E849E5F1DF02DC90039A5EA /* PersonTodayVC.swift */,
+				4E4E69AB1DF0AA8400456281 /* PersonHistoryVC.swift */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		4E849E511DF02DC90039A5EA = {
+			isa = PBXGroup;
+			children = (
+				4E4E69B01DF15E8F00456281 /* .gitignore */,
+				4E849E5C1DF02DC90039A5EA /* howwefeel */,
+				4E849E731DF02DC90039A5EA /* howwefeelTests */,
+				4E849E5B1DF02DC90039A5EA /* Products */,
+				6A1A7DF5596E3E2692547A99 /* Pods */,
+				A7FF44E75069F66519FE0C9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E849E5B1DF02DC90039A5EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E849E5A1DF02DC90039A5EA /* howwefeel.app */,
+				4E849E701DF02DC90039A5EA /* howwefeelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E849E5C1DF02DC90039A5EA /* howwefeel */ = {
+			isa = PBXGroup;
+			children = (
+				4E4E69AA1DF0AA2500456281 /* Person */,
+				4E849E5D1DF02DC90039A5EA /* AppDelegate.swift */,
+				4E849E611DF02DC90039A5EA /* SecondViewController.swift */,
+				4E849E631DF02DC90039A5EA /* Main.storyboard */,
+				4E849E661DF02DC90039A5EA /* Assets.xcassets */,
+				4E849E681DF02DC90039A5EA /* LaunchScreen.storyboard */,
+				4E849E6B1DF02DC90039A5EA /* Info.plist */,
+			);
+			path = howwefeel;
+			sourceTree = "<group>";
+		};
+		4E849E731DF02DC90039A5EA /* howwefeelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E849E741DF02DC90039A5EA /* howwefeelTests.swift */,
+				4E849E761DF02DC90039A5EA /* Info.plist */,
+			);
+			path = howwefeelTests;
+			sourceTree = "<group>";
+		};
+		6A1A7DF5596E3E2692547A99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				867546236EE1B185D900D6AE /* Pods-howwefeel.debug.xcconfig */,
+				2A09713BE53E76053A5A9C8F /* Pods-howwefeel.release.xcconfig */,
+				5FA1B3369B74A62E83DE2DB7 /* Pods-howwefeelTests.debug.xcconfig */,
+				394D48FF6756EC40A7139263 /* Pods-howwefeelTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7FF44E75069F66519FE0C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				621AAC4D0AD720A112B0CFD3 /* Pods_howwefeel.framework */,
+				955FEB2BD591451BDE947479 /* Pods_howwefeelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E849E591DF02DC90039A5EA /* howwefeel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E849E791DF02DC90039A5EA /* Build configuration list for PBXNativeTarget "howwefeel" */;
+			buildPhases = (
+				690DE63814ADE41BA832518B /* [CP] Check Pods Manifest.lock */,
+				4E849E561DF02DC90039A5EA /* Sources */,
+				4E849E571DF02DC90039A5EA /* Frameworks */,
+				4E849E581DF02DC90039A5EA /* Resources */,
+				D881AFE572D9B093187138A9 /* [CP] Embed Pods Frameworks */,
+				A5A196E1FD21F814ED2E2CC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = howwefeel;
+			productName = howwefeel;
+			productReference = 4E849E5A1DF02DC90039A5EA /* howwefeel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E849E6F1DF02DC90039A5EA /* howwefeelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E849E7C1DF02DC90039A5EA /* Build configuration list for PBXNativeTarget "howwefeelTests" */;
+			buildPhases = (
+				758962390CFA6C55E4D41B81 /* [CP] Check Pods Manifest.lock */,
+				4E849E6C1DF02DC90039A5EA /* Sources */,
+				4E849E6D1DF02DC90039A5EA /* Frameworks */,
+				4E849E6E1DF02DC90039A5EA /* Resources */,
+				8983FC96D49F1E206E6903FA /* [CP] Embed Pods Frameworks */,
+				A76A1322DFA5D721544A3C5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E849E721DF02DC90039A5EA /* PBXTargetDependency */,
+			);
+			name = howwefeelTests;
+			productName = howwefeelTests;
+			productReference = 4E849E701DF02DC90039A5EA /* howwefeelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E849E521DF02DC90039A5EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = joan;
+				TargetAttributes = {
+					4E849E591DF02DC90039A5EA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4E849E6F1DF02DC90039A5EA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E849E591DF02DC90039A5EA;
+					};
+				};
+			};
+			buildConfigurationList = 4E849E551DF02DC90039A5EA /* Build configuration list for PBXProject "howwefeel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E849E511DF02DC90039A5EA;
+			productRefGroup = 4E849E5B1DF02DC90039A5EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E849E591DF02DC90039A5EA /* howwefeel */,
+				4E849E6F1DF02DC90039A5EA /* howwefeelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E849E581DF02DC90039A5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4E69B11DF15E8F00456281 /* .gitignore in Resources */,
+				4E849E6A1DF02DC90039A5EA /* LaunchScreen.storyboard in Resources */,
+				4E849E671DF02DC90039A5EA /* Assets.xcassets in Resources */,
+				4E849E651DF02DC90039A5EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E849E6E1DF02DC90039A5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		690DE63814ADE41BA832518B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		758962390CFA6C55E4D41B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8983FC96D49F1E206E6903FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-howwefeelTests/Pods-howwefeelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A196E1FD21F814ED2E2CC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-howwefeel/Pods-howwefeel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76A1322DFA5D721544A3C5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-howwefeelTests/Pods-howwefeelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D881AFE572D9B093187138A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-howwefeel/Pods-howwefeel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E849E561DF02DC90039A5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4E69AC1DF0AA8400456281 /* PersonHistoryVC.swift in Sources */,
+				4E849E621DF02DC90039A5EA /* SecondViewController.swift in Sources */,
+				4E849E5E1DF02DC90039A5EA /* AppDelegate.swift in Sources */,
+				4E849E601DF02DC90039A5EA /* PersonTodayVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E849E6C1DF02DC90039A5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E849E751DF02DC90039A5EA /* howwefeelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E849E721DF02DC90039A5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E849E591DF02DC90039A5EA /* howwefeel */;
+			targetProxy = 4E849E711DF02DC90039A5EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E849E631DF02DC90039A5EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E849E641DF02DC90039A5EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E849E681DF02DC90039A5EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E849E691DF02DC90039A5EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E849E771DF02DC90039A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E849E781DF02DC90039A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E849E7A1DF02DC90039A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867546236EE1B185D900D6AE /* Pods-howwefeel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = howwefeel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = softwaresurium.com.howwefeel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E849E7B1DF02DC90039A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A09713BE53E76053A5A9C8F /* Pods-howwefeel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = howwefeel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = softwaresurium.com.howwefeel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4E849E7D1DF02DC90039A5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA1B3369B74A62E83DE2DB7 /* Pods-howwefeelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = howwefeelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = softwaresurium.com.howwefeelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/howwefeel.app/howwefeel";
+			};
+			name = Debug;
+		};
+		4E849E7E1DF02DC90039A5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394D48FF6756EC40A7139263 /* Pods-howwefeelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = howwefeelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = softwaresurium.com.howwefeelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/howwefeel.app/howwefeel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E849E551DF02DC90039A5EA /* Build configuration list for PBXProject "howwefeel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E849E771DF02DC90039A5EA /* Debug */,
+				4E849E781DF02DC90039A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E849E791DF02DC90039A5EA /* Build configuration list for PBXNativeTarget "howwefeel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E849E7A1DF02DC90039A5EA /* Debug */,
+				4E849E7B1DF02DC90039A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E849E7C1DF02DC90039A5EA /* Build configuration list for PBXNativeTarget "howwefeelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E849E7D1DF02DC90039A5EA /* Debug */,
+				4E849E7E1DF02DC90039A5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E849E521DF02DC90039A5EA /* Project object */;
+}
